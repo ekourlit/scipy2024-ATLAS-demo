@@ -13,5 +13,4 @@ If you have some version of conda/mamba/Anaconda/Miniconda/Miniforge, you can in
 
 ```bash
 conda env create -f requirements.txt   # can replace "conda" with "mamba"
-conda activate coffea_latest
 ```
