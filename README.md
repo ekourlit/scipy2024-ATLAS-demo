@@ -9,9 +9,9 @@ The data used in this demonstrator are part of the 2024 Open Data for Research r
 
 ## Running the notebooks on your personal computer
 
-If you have some version of conda/mamba/Anaconda/Miniconda/Miniforge, you can install the [environment.yml](environment.yml) as a new environment, then activate that environment and run the notebook in e.g. JupyterLab.
+If you have some version of conda/mamba/Anaconda/Miniconda/Miniforge, you can install the [environment.txt](environment.txt) as a new environment, then activate that environment and run the notebook in e.g. JupyterLab.
 
 ```bash
-conda env create -f environment.yml   # can replace "conda" with "mamba"
+conda env create -f environment.txt   # can replace "conda" with "mamba"
 conda activate coffea_latest
 ```
