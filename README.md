@@ -9,8 +9,10 @@ The data used in this demonstrator are part of the 2024 Open Data for Research r
 
 ## Running the notebooks on your personal computer
 
-If you have some version of conda/mamba/Anaconda/Miniconda/Miniforge, you can install the [requirements.txt](requirements.txt) as a new environment, then activate that environment and run the notebook in e.g. JupyterLab.
+If you have some version of conda/mamba/Anaconda/Miniconda/Miniforge, you can create and activate a Python environment, install the [`requirements.lock`](requirements.lock) built from the high level [`requirements.txt`](requirements.txt),  and run the notebook in e.g. JupyterLab.
 
-```bash
-conda env create -f requirements.txt   # can replace "conda" with "mamba"
+```console
+conda env create --name scipy2024-atlas-demo --yes python=3.9   # can replace "conda" with "mamba"
+conda activate scipy2024-atlas-demo
+python -m pip install --upgrade --no-deps --require-hashes --requirement requirements.lock
 ```
