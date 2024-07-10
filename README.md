@@ -8,10 +8,12 @@ The ATLAS experiment at CERN explores vast amounts of physics data to answer the
 
 This is partially a presentation, partially a demonstration. The aim is to showcase how libraries of the Scientific Python ecosystem are used in fundamental particle physics research.
 
-ATLAS has recently released a significant amount of Open Data for research. We hope scientists, and especially computer scientists, explore them and embrase on a constuctive dialogue with us. This notebook demonstrates a simplified analysis of those data.
+ATLAS has recently released a significant amount of open data for research. We hope scientists, and especially computer scientists, explore them and embrase on a constuctive dialogue with us. This notebook demonstrates a simplified analysis of those data.
 
 ## Data access
-The data used in this demonstrator are part of the 2024 Open Data for Research release from the ATLAS experiment and can be found at DOI:[10.7483/OPENDATA.ATLAS.9HK7.P5SI](http://doi.org/10.7483/OPENDATA.ATLAS.9HK7.P5SI).
+The data used in this demonstrator are part of the 2024 ppen data for research release from the ATLAS experiment and can be found at DOI:[10.7483/OPENDATA.ATLAS.9HK7.P5SI](http://doi.org/10.7483/OPENDATA.ATLAS.9HK7.P5SI).
+
+More information about the data can be found [here](https://opendata.atlas.cern/docs/documentation/overview_data/data_research_2024).
 
 ## Running the notebooks on your personal computer
 
